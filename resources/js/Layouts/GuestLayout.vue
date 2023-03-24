@@ -5,11 +5,10 @@ import { Link } from '@inertiajs/inertia-vue3';
 </script>
 
 <template>
-    <Header>
+    <Header />
 
-    </Header>
     <div class="min-h-screen relative flex flex-col bg-black text-white p-12">
             <slot />
     </div>
-    <Footer/>
+    <Footer />
 </template>
