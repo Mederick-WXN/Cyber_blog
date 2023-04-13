@@ -4,7 +4,7 @@ import { Link } from '@inertiajs/inertia-vue3';
 <template>
     <footer class="bg-black shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8">
   <p class="mb-4 text-sm text-center text-white sm:mb-0">
-      &copy; 2022 <Link :href="route('Home')" class="hover:underline" target="_blank">0xCyb3r</Link>. All rights reserved.
+      &copy; 2023 <Link :href="route('Home')" class="hover:underline" target="_blank">0xCyb3r</Link>. All rights reserved.
   </p>
   <div class="flex justify-center items-center space-x-1">
     <a href="#" data-tooltip-target="tooltip-twitter" class="inline-flex justify-center p-2 text-white rounded-lg cursor-pointer hover:text-white  hover:bg-[#1e94d1]">
