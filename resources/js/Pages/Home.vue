@@ -34,35 +34,126 @@ library.add(faUserSecret,faBookSkull)
             </div>
         </section>
 
-        <section class="bg-black">
-            <div class="gap-8 items-center text-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-                <div class="flex flex-col gap-y-6">
-                        <h2 class="text-4xl text-white font-bold">Blog</h2>
-                        <Link>
-                            <font-awesome-icon icon="user-secret" class="text-9xl text-[#1e94d1]"/>
-                        </Link>
+        <section class="p-8 sm:p-16 text-gray-100">
+            <div class="container p-6 mx-auto space-y-8">
+                <a href="#" class="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 bg-gray-900">
+                    <img src="" alt="" class="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 bg-gray-500">
+                    <div class="p-6 space-y-2 lg:col-span-5">
+                        <h3 class="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">Digital & Network Defence Agency, le partenaire </h3>
+                        <a ref="noopener noreferrer" href="#" class="py-2 text-xs tracking-wider uppercase hover:underline text-violet-400">Actu</a>
+                        <p class="h-20"> !loren </p>
+                        <div class="flex justify-between text-xs text-gray-400">
+                            <span>Date</span>
+                            <span>Heure</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
+                    <article class="space-y-2">
+                        <a ref="noopener noreferrer" href="#">
+                            <img src="" alt="" class="object-cover w-full h-52 bg-gray-500">
+                            <div class="flex flex-col flex-1 p-6">
+                                <a ref="noopener noreferrer" href="#" class="text-xs tracking-wider uppercase hover:underline text-violet-400">Web</a>
+                                <h3 class="flex-1 py-2 text-lg font-semibold leading-snug">Vulnérabilités sur Laravel 10</h3>
+                                <div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
+                                    <span>DATE</span>
+                                    <span>Heure</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="space-y-2">
+                        <a ref="noopener noreferrer" href="#">
+                            <img src="" alt="" class="object-cover w-full h-52 bg-gray-500">
+                            <div class="flex flex-col flex-1 p-6">
+                                <a ref="noopener noreferrer" href="#" class="text-xs tracking-wider uppercase hover:underline text-violet-400">Web</a>
+                                <h3 class="flex-1 py-2 text-lg font-semibold leading-snug">Les attaques par force-brute !</h3>
+                                <div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
+                                    <span>DATE</span>
+                                    <span>Heure</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="space-y-2">
+                        <a ref="noopener noreferrer" href="#">
+                            <img src="" alt="" class="object-cover w-full h-52 bg-gray-500">
+                            <div class="flex flex-col flex-1 p-6">
+                                <a ref="noopener noreferrer" href="#" class="text-xs tracking-wider uppercase hover:underline text-violet-400">Ransomware</a>
+                                <h3 class="flex-1 py-2 text-lg font-semibold leading-snug">Lockbit 4.0, le nouveau ransomware !</h3>
+                                <div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
+                                    <span>DATE</span>
+                                    <span>Heure</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="space-y-2">
+                        <a ref="noopener noreferrer" href="#">
+                            <img src="" alt="" class="object-cover w-full h-52 bg-gray-500">
+                            <div class="flex flex-col flex-1 p-6">
+                                <a ref="noopener noreferrer" href="#" class="text-xs tracking-wider uppercase hover:underline text-violet-400">Actu</a>
+                                <h3 class="flex-1 py-2 text-lg font-semibold leading-snug">0xCyb3r, le début de l'aventure !</h3>
+                                <div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
+                                    <span>DATE</span>
+                                    <span>Heure</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article><article class="space-y-2">
+                        <a ref="noopener noreferrer" href="#">
+                            <img src="" alt="" class="object-cover w-full h-52 bg-gray-500">
+                            <div class="flex flex-col flex-1 p-6">
+                                <a ref="noopener noreferrer" href="#" class="text-xs tracking-wider uppercase hover:underline text-violet-400">Web</a>
+                                <h3 class="flex-1 py-2 text-lg font-semibold leading-snug">Vulnérabilités sur Laravel 10</h3>
+                                <div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
+                                    <span>DATE</span>
+                                    <span>Heure</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="space-y-2">
+                        <a ref="noopener noreferrer" href="#">
+                            <img src="" alt="" class="object-cover w-full h-52 bg-gray-500">
+                            <div class="flex flex-col flex-1 p-6">
+                                <a ref="noopener noreferrer" href="#" class="text-xs tracking-wider uppercase hover:underline text-violet-400">Web</a>
+                                <h3 class="flex-1 py-2 text-lg font-semibold leading-snug">Les attaques par force-brute !</h3>
+                                <div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
+                                    <span>DATE</span>
+                                    <span>Heure</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="space-y-2">
+                        <a ref="noopener noreferrer" href="#">
+                            <img src="" alt="" class="object-cover w-full h-52 bg-gray-500">
+                            <div class="flex flex-col flex-1 p-6">
+                                <a ref="noopener noreferrer" href="#" class="text-xs tracking-wider uppercase hover:underline text-violet-400">Ransomware</a>
+                                <h3 class="flex-1 py-2 text-lg font-semibold leading-snug">Lockbit 4.0, le nouveau ransomware !</h3>
+                                <div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
+                                    <span>DATE</span>
+                                    <span>Heure</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="space-y-2">
+                        <a ref="noopener noreferrer" href="#">
+                            <img src="" alt="" class="object-cover w-full h-52 bg-gray-500">
+                            <div class="flex flex-col flex-1 p-6">
+                                <a ref="noopener noreferrer" href="#" class="text-xs tracking-wider uppercase hover:underline text-violet-400">Actu</a>
+                                <h3 class="flex-1 py-2 text-lg font-semibold leading-snug">0xCyb3r, le début de l'aventure !</h3>
+                                <div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
+                                    <span>DATE</span>
+                                    <span>Heure</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
                 </div>
-                <div class="flex flex-col gap-y-6">
-                        <h2 class="text-4xl text-white font-bold">Wiki</h2>
-                        <Link>
-                            <font-awesome-icon icon="book-skull" class="text-9xl text-[#1e94d1]"/>
-                        </Link>
-                </div>
             </div>
-    </section>
-
-    <section class="flex flex-col max-w-screen-xl lg:px-1 mx-2">
-        <h2 class="text-4xl text-white font-bold">Service Status</h2>
-        <p class="text-sm font-thin text-gray-400">Last updated 08:23:57 UTC | Next update in 23 sec. </p>
-        <div class="grid grid-cols-2 text-center my-4">
-            <div>
-                <h2 class="text-4xl text-white font-bold">Blog</h2>
-            </div>
-            <div>
-                <h2 class="text-4xl text-white font-bold">Wiki</h2>
-            </div>
-
-        </div>
-    </section>
+        </section>
     </GuestLayout>
 </template>

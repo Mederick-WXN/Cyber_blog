@@ -7,7 +7,7 @@ import { Link } from '@inertiajs/inertia-vue3';
 <template>
     <Header />
 
-    <div class="min-h-screen relative flex flex-col bg-black text-white p-12">
+    <div class="min-h-screen relative grid grid-cols-1 bg-black text-white p-12">
             <slot />
     </div>
     <Footer />
