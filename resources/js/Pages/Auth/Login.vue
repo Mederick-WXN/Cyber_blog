@@ -40,13 +40,13 @@ const submit = () => {
                 </div>
                 <form @submit.prevent="submit" class="w-80">
                     <div>
-                        <InputLabel for="email" value="Email" class="text-white" />
+                        <InputLabel for="email" value="Email" class="text-black" />
                         <TextInput id="email" type="email" class="mt-1 block w-full" v-model="form.email" required autofocus autocomplete="username" />
                         <InputError class="mt-2" :message="form.errors.email" />
                     </div>
 
                     <div class="mt-4">
-                        <InputLabel for="password" value="Password" class="text-white" />
+                        <InputLabel for="password" value="Password" class="text-black" />
                         <TextInput id="password" type="password" class="mt-1 block w-full" v-model="form.password" required autocomplete="current-password" />
                         <InputError class="mt-2" :message="form.errors.password" />
                     </div>

@@ -11,8 +11,9 @@ return new class extends Migration {
             $table->id();
             $table->string('title');
             $table->longText('content');
-            $table->string('cover_name');
+            $table->string('cover_name')->nullable();
             $table->boolean('is_highlighted');
+            $table->string('slug');
             $table->unsignedInteger('category_id');
             $table->foreign('category_id')->references('id')->on('categories');
             $table->unsignedInteger('author_id');
