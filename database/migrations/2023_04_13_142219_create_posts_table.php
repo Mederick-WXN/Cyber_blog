@@ -13,9 +13,9 @@ return new class extends Migration {
             $table->longText('content');
             $table->string('cover_name');
             $table->boolean('is_highlighted');
-            $table->unsignedInteger('category_id');
+            $table->unsignedBigInteger('category_id');
             $table->foreign('category_id')->references('id')->on('categories');
-            $table->unsignedInteger('author_id');
+            $table->unsignedBigInteger('author_id');
             $table->foreign('author_id')->references('id')->on('users');
             $table->timestamps();
         });

@@ -11,7 +11,7 @@ return new class extends Migration {
             $table->id();
             $table->string('name')->unique();
             $table->text('desc')->nullable();
-            $table->unsignedInteger('author_id');
+            $table->unsignedBigInteger('author_id');
             $table->foreign('author_id')->references('id')->on('users');
             $table->timestamps();
         });
