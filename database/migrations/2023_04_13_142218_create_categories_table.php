@@ -11,8 +11,6 @@ return new class extends Migration {
             $table->id();
             $table->string('name')->unique();
             $table->text('desc')->nullable();
-            $table->unsignedBigInteger('author_id');
-            $table->foreign('author_id')->references('id')->on('users');
             $table->timestamps();
         });
     }
@@ -20,5 +18,8 @@ return new class extends Migration {
     public function down(): void
     {
         Schema::dropIfExists('categories');
+        Schema::table('posts', function (Blueprint $table) {
+            $table->dropConstrainedForeignIdFor(\App\Models\Category::class);
+        });
     }
 };
