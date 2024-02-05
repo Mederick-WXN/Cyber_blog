@@ -5,21 +5,50 @@ import { Head } from '@inertiajs/inertia-vue3';
 
 <template>
     <Head title="Dashboard" />
-
     <AuthenticatedLayout>
-        <template #header>
-            <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-                Dashboard
-            </h2>
-        </template>
+        <div class="flex flex-col gap-y-12">
 
-        <div class="py-12">
-            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                    <div class="p-6 text-gray-900">
-                        You're logged in!
+            <div class="flex flex-row justify-between">
+                <div class="flex flex-col">
+                    <h1 class="text-3xl font-semibold text-white">Dashboard</h1>
+                    <p class="text-sm text-gray-400">Bienvenue "Utilisateur" sur votre tableau de bord</p>
+                </div>
+            </div>
+
+            <div class="flex flex-row gap-4 justify-between divide-x divide-gray-500">
+                <div class="text-white w-full">
+                    <h2 class="text-2xl font-semibold">20,000</h2>
+                    <div class="flex justify-between">
+                        <p class="text-sm text-gray-400">Nombre de lecture</p>
+                        <span class="text-sm text-green-600 bg-green-400 rounded px-2 py-0.5">+22</span>
                     </div>
                 </div>
+
+                <div class="text-white w-full pl-4">
+                    <h2 class="text-2xl font-semibold">55,003</h2>
+                    <div class="flex justify-between">
+                        <p class="text-sm text-gray-400">Nombre de vue</p>
+                        <span class="text-sm text-red-600 bg-red-400 rounded px-2 py-0.5">-300</span>
+                    </div>
+                </div>
+
+                <div class="text-white w-full pl-4">
+                    <h2 class="text-2xl font-semibold">4</h2>
+                    <div class="flex justify-between">
+                        <p class="text-sm text-gray-400">Articles</p>
+                        <span class="text-sm text-red-600 bg-red-400 rounded px-2 py-0.5">-3</span>
+                    </div>
+                </div>
+
+                <div class="text-white w-full pl-4">
+                    <h2 class="text-2xl font-semibold">89</h2>
+                    <div class="flex justify-between">
+                        <p class="text-sm text-gray-400">Commentaires</p>
+                        <span class="text-sm text-green-600 bg-green-400 rounded px-2 py-0.5">+34</span>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </AuthenticatedLayout>
